@@ -548,6 +548,11 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+csv-parse@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-5.0.1.tgz#01368a30152023022dce67f653505bcbb29322e5"
+  integrity sha512-K1WfnyENJincXFtyHEA6DSe16+/aVdU6TCTqvJw+BouVNiovn1hBpO3BCGFPIhVnndy7c+2IOMMNEFir6Snh4Q==
+
 debug@2.6.9, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
