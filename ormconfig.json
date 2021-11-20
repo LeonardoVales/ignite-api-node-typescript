@@ -1,8 +1,12 @@
 {
     "type": "postgres",
     "port": 5432,
-    "host": "database-ignite",
+    "host": "localhost",
     "username": "docker",
     "password": "ignite",
-    "database": "ignite-api"
+    "database": "ignite-api",
+    "migrations": ["./src/database/migrations/*.ts"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
 }
