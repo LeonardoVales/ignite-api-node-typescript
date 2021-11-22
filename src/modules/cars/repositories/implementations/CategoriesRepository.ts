@@ -10,7 +10,6 @@ class CategoriesRepository implements ICategoriesRepository {
   private repository: Repository<Category>;
 
   constructor() {
-    console.log(typeof Category);
     this.repository = getRepository(Category);
   }
 
